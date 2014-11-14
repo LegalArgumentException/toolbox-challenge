@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+}
+
+li {
+	border: solid 1px black;
+	border-radius: 4px;
+	display: inline-block;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+.matchImage {
+	border: 5px solid black;
+	border-radius: 3px;
+	margin: 2px;
+	-webkit-transition: width .5s, -webkit-transform 5s;
+	transition: width .5s, transform 5s;
+}
+
+.locked {
+	border-color: orange;
+}
+
+.gameState {
+	-webkit-transition: -webkit-transform 5s;
+	transition: transform 5s;
+}
+
+.winState {
+	-webkit-transition: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+#newGame {
+	margin-left: 5px;
+}
